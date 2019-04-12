@@ -1,0 +1,8 @@
+qemu-kvm_packages:
+  - qemu-kvm
+  - libvirt-bin
+  - virtinst #allows automation of VM's via virt install scripts that work well with ansible
+  - bridge-utils
+  - cpu-checker
+  - libvirt-python #allows python libvirt-insteraction
+  - virt-manager
